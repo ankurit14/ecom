@@ -48,6 +48,11 @@ class AdminController extends Controller
        }
     }
 
+    public function dashboard()
+    {
+        return view('admin.dashboard');
+    }
+
     /**
      * Display the specified resource.
      *
